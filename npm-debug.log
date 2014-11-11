@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'bluemix_cloudant' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'bluemix_cloudant', null ]
+6 verbose cache add name=undefined spec="bluemix_cloudant" args=["bluemix_cloudant",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'bluemix_cloudant',
+7 verbose parsed url   path: 'bluemix_cloudant',
+7 verbose parsed url   href: 'bluemix_cloudant' }
+8 silly lockFile 21af0c8b-bluemix-cloudant bluemix_cloudant
+9 verbose lock bluemix_cloudant /Users/glynnb/.npm/21af0c8b-bluemix-cloudant.lock
+10 silly lockFile 21af0c8b-bluemix-cloudant bluemix_cloudant
+11 silly lockFile 21af0c8b-bluemix-cloudant bluemix_cloudant
+12 verbose addNamed [ 'bluemix_cloudant', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile eef28c17-bluemix-cloudant bluemix_cloudant@
+15 verbose lock bluemix_cloudant@ /Users/glynnb/.npm/eef28c17-bluemix-cloudant.lock
+16 silly addNameRange { name: 'bluemix_cloudant', range: '*', hasData: false }
+17 verbose request where is /bluemix_cloudant
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id b2e8121023ff1725
+20 verbose url raw /bluemix_cloudant
+21 verbose url resolving [ 'https://registry.npmjs.org/', './bluemix_cloudant' ]
+22 verbose url resolved https://registry.npmjs.org/bluemix_cloudant
+23 verbose request where is https://registry.npmjs.org/bluemix_cloudant
+24 info trying registry request attempt 1 at 14:32:56
+25 http GET https://registry.npmjs.org/bluemix_cloudant
+26 http 404 https://registry.npmjs.org/bluemix_cloudant
+27 verbose headers { date: 'Tue, 21 Oct 2014 13:32:56 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1413898376.631412,VS0,VE96',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Tue, 21 Oct 2014 13:32:56 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1413898376.631412,VS0,VE96',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile eef28c17-bluemix-cloudant bluemix_cloudant@
+30 silly lockFile eef28c17-bluemix-cloudant bluemix_cloudant@
+31 error 404 404 Not Found: bluemix_cloudant
+31 error 404
+31 error 404 'bluemix_cloudant' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'conference'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.0.0
+33 error command "node" "/usr/local/bin/npm" "install" "--save" "bluemix_cloudant"
+34 error cwd /Users/glynnb/projects/conference
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

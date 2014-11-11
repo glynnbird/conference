@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+head
+  include head.jade
+  script(src="/js/index.js",type="text/javascript")
+
+body
+  div.container
+    div.header
+      h3.text-muted
+      
+    div.jumbotron
+      h1 Welcome to #{title}
+      form(role="form",onsubmit="return handleHandler()")
+        div#handlegroup.form-group
+          label(for="handle") Please enter you twitter handle e.g. glynn_bird
+          input#handle.form-control(type="text")
+        button#submitbutton.btn.btn-submit(type="submit") Submit
+
+    div.footer
+      p &copy; 2014
+      

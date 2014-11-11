@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+head
+  include head.jade
+  link(rel="stylesheet",href="/css/live.css")
+  script(src="/socket.io/socket.io.js")
+  script(src="/js/move.js")
+
+body
+ 
+  div.container
+    div.header
+      h3.text-muted
+      
+    div.jumbotron
+      h1=title
+      div#userlist.pull-right
+    
+    div.row
+      div#questionprompt.col-md-12
+  
+
+    div#answerpods.row
+    
+
+  script(src="/js/live.js",type="text/javascript")      

@@ -1,0 +1,14 @@
+html,body {
+  height:100%;
+}
+
+body {
+  margin-top:53px;
+}
+
+#pic {
+   width: 25px;
+   height: 25px;
+   border-radius: 12px;   
+}
+ 

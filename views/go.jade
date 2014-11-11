@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+head
+  include head.jade
+  link(rel="stylesheet",href="/css/go.css")
+  script(src="/socket.io/socket.io.js")
+  
+body
+  div#fb-root
+
+  nav.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+    div.container-fluid
+      div.navbar-header.hidden-xs.hidden-sm
+        a.navbar-brand(href="/")=title
+      p.navbar-text Signed in as #{user.name} (#{user.handle})
+      p.navbar-text 
+        img#pic(src="#{user.pic}")
+      p#userid.navbar-text(style="display:none")=user._id
+ 
+  div.container
+    div.header
+      h3.text-muted
+      
+    div#jumbotron.jumbotron
+      h1 Please wait for the first question
+      h2 ...
+    
+
+  script(src="/js/go.js",type="text/javascript")      
